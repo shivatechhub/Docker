@@ -55,3 +55,6 @@ $ docker pull <imagename>
 
 # To Execute a command inside the docker container
 $ docker exec <container_name> <command_to_execute>
+
+# TO RUN THE CONTAINER IN THE DETACHED MODE. 
+$ docker run -d <container_name>
