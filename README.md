@@ -25,7 +25,7 @@ $ sudo apt-get remove docker docker-engine docker.io containerd runc
 $ sudo docker version
 
 
-####**CHECK THE DOCKER VERSION**#### 
+####CHECK THE DOCKER VERSION#### 
 ----------------------------
 $ sudo docker version
 
