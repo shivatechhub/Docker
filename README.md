@@ -33,25 +33,25 @@ $ sudo docker run <image_name> <container_name>
 
 # Basic Docker Commands
 # To run a Container
-docker run <image/applicationname>
+$ docker run <image/applicationname>
 # To list all the running Containers
-docker ps
-docker ps -a (To see all the containers Stopped/Running)
+$ docker ps
+$ docker ps -a (To see all the containers Stopped/Running)
 
 # To Stop a Running Container
-docker stop <containerID/ContainerName>
+$ docker stop <containerID/ContainerName>
 
 # To remove a started or stopped container permanently. 
-docker rm <containerID/ContainerName>
+$ docker rm <containerID/ContainerName>
 
 # To see the list of images
-docker images
+$ docker images
 
 # To Remove an image
-docker rmi <imagename>
+$ docker rmi <imagename>
 
 # To Download an image
-docker pull <imagename>
+$ docker pull <imagename>
 
 # To Execute a command inside the docker container
-docker exec <container_name> <command_to_execute>
+$ docker exec <container_name> <command_to_execute>
