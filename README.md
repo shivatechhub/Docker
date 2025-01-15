@@ -25,38 +25,37 @@ $ sudo apt-get remove docker docker-engine docker.io containerd runc
 $ sudo docker version
 
 
-#### CHECK THE DOCKER VERSION #### 
-*************************************
+#### CHECK THE DOCKER VERSION:
 $ sudo docker version
 
-#### RUN A PARTICULAR IMAGE INSIDE A CONTAINER
+#### RUN A PARTICULAR IMAGE INSIDE A CONTAINER:
 $ sudo docker run <image_name> <container_name>
 
-### BASIC DOCKER COMMANDS
-#### TO RUN A CONTAINER
+### BASIC DOCKER COMMANDS:
+#### TO RUN A CONTAINER:
 $ docker run <image/applicationname>
 
-#### TO LIST ALL THE RUNNING CONTAINERS
+#### TO LIST ALL THE RUNNING CONTAINERS:
 $ docker ps
 $ docker ps -a (To see all the containers Stopped/Running)
 
-#### TO STOP A RUNNING CONTAINER
+#### TO STOP A RUNNING CONTAINER:
 $ docker stop <containerID/ContainerName>
 
-#### TO REMOVE A STARTED OR STOPPED CONTAINER.  
+#### TO REMOVE A STARTED OR STOPPED CONTAINER:  
 $ docker rm <containerID/ContainerName>
 
-#### TO SEE THE LIST OF DOCKER IMAGES
+#### TO SEE THE LIST OF DOCKER IMAGES:
 $ docker images
 
-#### TO REMOVE AN IMAGE
+#### TO REMOVE AN IMAGE:
 $ docker rmi <imagename>
 
-#### TO DOWNLOAD AN IMAGE
+#### TO DOWNLOAD AN IMAGE:
 $ docker pull <imagename>
 
-#### TO EXECUTE THE COMMAND INSIDE THE DOCKER CONTAINER. 
+#### TO EXECUTE THE COMMAND INSIDE THE DOCKER CONTAINER: 
 $ docker exec <container_name> <command_to_execute>
 
-#### TO RUN THE CONTAINER IN THE DETACHED MODE. 
+#### TO RUN THE CONTAINER IN THE DETACHED MODE: 
 $ docker run -d <container_name>
