@@ -26,7 +26,7 @@ $ sudo docker version
 
 
 #### CHECK THE DOCKER VERSION #### 
-----------------------------
+*************************************
 $ sudo docker version
 
 #### RUN A PARTICULAR IMAGE INSIDE A CONTAINER
