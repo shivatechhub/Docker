@@ -5,4 +5,4 @@ Docker
 $ sudo docker version
 
 # run a particular image inside the Container
-$ sudo docker run <image_name>
+$ sudo docker run <image_name> <container_name>
