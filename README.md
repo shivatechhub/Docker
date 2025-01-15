@@ -1,8 +1,35 @@
 # Docker
 Docker
+Docker Images : 
+-	Packages Template or a plan of the application. 
+-	We can create our own images and push it to docker repository. 
+
+GETTING STARTED WITH DOCKER. 
+-	Docker has two editions
+o	Community edition
+o	Enterprise Edition. 
+-	Docker is available for the below operating systems 
+o	Linux
+o	Windows
+o	MAC
+o	Cloud platforms like AWS , Azure etc..
+
+INSTALLING DOCKER
+-	Navigate to the below url 
+https://docs.docker.com
+-	Click on Get Docker. 
+-	Uninstall any older versions of the docker using the below command. 
+$ sudo apt-get remove docker docker-engine docker.io containerd runc
+-	Then install docker using the commands for a particular operating system. 
+-	Once the Installation is successful we can version the version of the docker using 
+$ sudo docker version
+
 
 # check the version of the docker
 $ sudo docker version
 
 # run a particular image inside the Container
 $ sudo docker run <image_name> <container_name>
+
+# Basic Docker Commands
+docker run <image/applicationname>
