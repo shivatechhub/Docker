@@ -54,11 +54,11 @@ $ docker rmi <imagename>
 #### TO DOWNLOAD AN IMAGE:
 $ docker pull <imagename>
 
-#### TO ATTACH A DETACHED CONTAINER: 
-$ docker attach <first_five_letters_container>
-
 #### TO EXECUTE THE COMMAND INSIDE THE DOCKER CONTAINER: 
 $ docker exec <container_name> <command_to_execute>
 
 #### TO RUN THE CONTAINER IN THE DETACHED MODE: 
 $ docker run -d <container_name>
+
+#### TO ATTACH A DETACHED CONTAINER: 
+$ docker attach <first_five_letters_container>
