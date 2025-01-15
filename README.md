@@ -28,32 +28,33 @@ $ sudo docker version
 # CHECK THE DOCKER VERSION
 $ sudo docker version
 
-# run a particular image inside the Container
+# RUN A PARTICULAR IMAGE INSIDE A CONTAINER
 $ sudo docker run <image_name> <container_name>
 
-# Basic Docker Commands
-# To run a Container
+# BASIC DOCKER COMMANDS
+# TO RUN A CONTAINER
 $ docker run <image/applicationname>
-# To list all the running Containers
+
+# TO LIST ALL THE RUNNING CONTAINERS
 $ docker ps
 $ docker ps -a (To see all the containers Stopped/Running)
 
-# To Stop a Running Container
+# TO STOP A RUNNING CONTAINER
 $ docker stop <containerID/ContainerName>
 
-# To remove a started or stopped container permanently. 
+# TO REMOVE A STARTED OR STOPPED CONTAINER.  
 $ docker rm <containerID/ContainerName>
 
-# To see the list of images
+# TO SEE THE LIST OF DOCKER IMAGES
 $ docker images
 
-# To Remove an image
+# TO REMOVE AN IMAGE
 $ docker rmi <imagename>
 
-# To Download an image
+# TO DOWNLOAD AN IMAGE
 $ docker pull <imagename>
 
-# To Execute a command inside the docker container
+# TO EXECUTE THE COMMAND INSIDE THE DOCKER CONTAINER. 
 $ docker exec <container_name> <command_to_execute>
 
 # TO RUN THE CONTAINER IN THE DETACHED MODE. 
