@@ -73,4 +73,4 @@ $ docker run <image_name> sleep 20
 $ docker exec <container_id> <command>
 
 #### To run a specific container and give a name
-$docker run --name <container_name> -d <image>
+$docker run --name <container_name> -d <imagename>
