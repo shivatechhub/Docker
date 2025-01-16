@@ -55,7 +55,7 @@ $ docker rmi <imagename>
 $ docker pull <imagename>
 
 #### To Execute the Command inside the docker container: 
-$ docker exec <container_name> <command_to_execute>
+$ docker exec <container_name> <command_to_execute> <br>
 
 #### To run the Container in detached mode: 
 $ docker run -d <container_name>
@@ -93,4 +93,8 @@ $ docker run -v <new_directory>:<directory_to_be_mapped> <image_name>
 
 #### To View the logs of the Container
 $ docker logs <container_name>
+
+#### To run a docker container and get information about the container
+$ docker run <container_name> <command_to_get_the_information> <br>
+$ docker run ubuntu cat /etc/*release*
 
