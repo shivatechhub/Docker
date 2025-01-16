@@ -91,3 +91,6 @@ $ docker run -p 80:5000 redis
 #### To preserve the data inside the container we do volume mapping
 $ docker run -v <new_directory>:<directory_to_be_mapped> <image_name>
 
+#### To View the logs of the Container
+$ docker logs <container_name>
+
