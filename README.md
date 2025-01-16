@@ -78,3 +78,9 @@ $ docker run --name <container_name> -d <imagename>
 #### To remove all the images
 $ docker rmi $(docker images -q)
 
+#### Assigning tags for Containers
+$ docker run <image_name>:<tag> 
+
+#### To run the Container in the Interactive mode
+$ docker run -i <image_name>
+
