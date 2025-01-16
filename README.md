@@ -1,10 +1,10 @@
-# Docker
+#### Docker
 Docker
 Docker Images : 
 -	Packages Template or a plan of the application. 
 -	We can create our own images and push it to docker repository. 
 
-# Getting Started with Docker
+#### Getting Started with Docker
 -	Docker has two editions
 o	Community edition
 o	Enterprise Edition. 
@@ -14,7 +14,7 @@ o	Windows
 o	MAC
 o	Cloud platforms like AWS , Azure etc..
 
-# Installing Docker
+#### Installing Docker
 -	Navigate to the below url 
 https://docs.docker.com
 -	Click on Get Docker. 
