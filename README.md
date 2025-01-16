@@ -62,3 +62,12 @@ $ docker run -d <container_name>
 
 #### TO ATTACH A DETACHED CONTAINER: 
 $ docker attach <first_five_letters_container>
+
+#### TO LOGIN INTO DOCKER CONTAINER IN INTERACTIVE MODE.
+$ docker run -it <image_name> bash
+
+#### To Make the container run for a specific amount of time
+$ docker run <image_name> sleep 20
+
+#### To login into a container and run a command
+$ docker exec <container_id> <command>
