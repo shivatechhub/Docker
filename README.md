@@ -48,22 +48,22 @@ $ docker rm <containerID/ContainerName>
 #### To See list of the Docker images:
 $ docker images
 
-#### TO REMOVE AN IMAGE:
+#### To Remove an Image:
 $ docker rmi <imagename>
 
-#### TO DOWNLOAD AN IMAGE:
+#### To Download an Image:
 $ docker pull <imagename>
 
-#### TO EXECUTE THE COMMAND INSIDE THE DOCKER CONTAINER: 
+#### To Execute the Command inside the docker container: 
 $ docker exec <container_name> <command_to_execute>
 
-#### TO RUN THE CONTAINER IN THE DETACHED MODE: 
+#### To run the Container in detached mode: 
 $ docker run -d <container_name>
 
-#### TO ATTACH A DETACHED CONTAINER: 
+#### To Attach a detached container: 
 $ docker attach <first_five_letters_container>
 
-#### TO LOGIN INTO DOCKER CONTAINER IN INTERACTIVE MODE.
+#### To login into Docker container in interactive mode.
 $ docker run -it <image_name> bash
 
 #### To Make the container run for a specific amount of time
