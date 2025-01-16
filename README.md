@@ -71,3 +71,6 @@ $ docker run <image_name> sleep 20
 
 #### To login into a container and run a command
 $ docker exec <container_id> <command>
+
+#### To run a specific container and give a name
+$docker run --name <container_name> -d <image>
