@@ -4,7 +4,7 @@ Docker Images :
 -	Packages Template or a plan of the application. 
 -	We can create our own images and push it to docker repository. 
 
-# GETTING STARTED WITH DOCKER. 
+# Getting Started with Docker
 -	Docker has two editions
 o	Community edition
 o	Enterprise Edition. 
@@ -14,7 +14,7 @@ o	Windows
 o	MAC
 o	Cloud platforms like AWS , Azure etc..
 
-# INSTALLING DOCKER
+# Installing Docker
 -	Navigate to the below url 
 https://docs.docker.com
 -	Click on Get Docker. 
@@ -25,27 +25,27 @@ $ sudo apt-get remove docker docker-engine docker.io containerd runc
 $ sudo docker version
 
 
-#### CHECK THE DOCKER VERSION:
+#### Check the Docker Version:
 $ sudo docker version
 
-#### RUN A PARTICULAR IMAGE INSIDE A CONTAINER:
+#### Run a particular image inside the container:
 $ sudo docker run <image_name> <container_name>
 
-### BASIC DOCKER COMMANDS:
-#### TO RUN A CONTAINER:
+### Basic Docker Commands:
+#### To Run a Container:
 $ docker run <image/applicationname>
 
-#### TO LIST ALL THE RUNNING CONTAINERS:
+#### To List All the Running Containers:
 $ docker ps
 $ docker ps -a (To see all the containers Stopped/Running)
 
-#### TO STOP A RUNNING CONTAINER:
+#### To Stop a Running Container:
 $ docker stop <containerID/ContainerName>
 
-#### TO REMOVE A STARTED OR STOPPED CONTAINER:  
+#### To Remove a Started or Stopped Container:  
 $ docker rm <containerID/ContainerName>
 
-#### TO SEE THE LIST OF DOCKER IMAGES:
+#### To See list of the Docker images:
 $ docker images
 
 #### TO REMOVE AN IMAGE:
