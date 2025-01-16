@@ -85,7 +85,7 @@ $ docker run <image_name>:<tag>
 $ docker run -i <image_name>
 
 #### Port Mapping a Container.
-$ docker run -p <new_port>:<port_to_map> <image_name>
+$ docker run -p <new_port>:<port_to_map> <image_name> <br>
 $ docker run -p 80:5000 redis
 
 #### To preserve the data inside the container we do volume mapping
