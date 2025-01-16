@@ -96,5 +96,6 @@ $ docker logs <container_name>
 
 #### To run a docker container and get information about the container
 $ docker run <container_name> <command_to_get_the_information> <br>
-$ docker run ubuntu cat /etc/*release*
-
+$ docker run ubuntu cat /etc/*release* <br>
+$ docker run <container_name>:tag <command_to_get_the_information> <br>
+$ docker run ubuntu:17.10 cat /etc/*release* <br>
