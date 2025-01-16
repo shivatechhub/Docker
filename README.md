@@ -74,3 +74,7 @@ $ docker exec <container_id> <command>
 
 #### To run a specific container and give a name
 $ docker run --name <container_name> -d <imagename>
+
+#### To remove all the images
+$ docker rmi $(docker images -q)
+
