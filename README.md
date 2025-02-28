@@ -1,8 +1,11 @@
 #### Docker
 Docker
+
 Docker Images : 
+```
 -	Packages Template or a plan of the application. 
 -	We can create our own images and push it to docker repository. 
+```
 
 #### Getting Started with Docker
 -	Docker has two editions
