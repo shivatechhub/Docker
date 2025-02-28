@@ -20,13 +20,17 @@ o	MAC
 o	Cloud platforms like AWS , Azure etc..
 ```
 
-##Installing Docker
+## Installing Docker
 ```
 1. Navigate to the below url 
 https://docs.docker.com
-2. Click on Get Docker. 
+
+2. Click on Get Docker.
+
 3. Uninstall any older versions of the docker using the below command. 
+```
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
+```
 4. Then install docker using the commands for a particular operating system. 
 Once the Installation is successful we can version the version of the docker using 
 $ sudo docker version
