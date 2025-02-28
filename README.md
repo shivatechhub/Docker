@@ -30,9 +30,10 @@ o	Cloud platforms like AWS , Azure etc..
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
 
 4. Then install docker using the commands for a particular operating system. <br>
-Once the Installation is successful we can version the version of the docker using 
+Once the Installation is successful we can version the version of the docker using <br>
+```
 $ sudo docker version
-
+```
 
 #### Check the Docker Version:
 ```
