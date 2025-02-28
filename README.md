@@ -39,22 +39,32 @@ $ sudo docker version
 ```
 $ sudo docker version
 ```
-#### Run a particular image inside the container:
+## Run a particular image inside the container:
+```
 $ sudo docker run <image_name> <container_name>
+```
 
-### Basic Docker Commands:
-#### To Run a Container:
+## Basic Docker Commands:
+### To Run a Container:
+```
 $ docker run <image/applicationname>
+```
 
-#### To List All the Running Containers:
+### To List All the Running Containers:
+```
 $ docker ps
 $ docker ps -a (To see all the containers Stopped/Running)
+```
 
-#### To Stop a Running Container:
+### To Stop a Running Container:
+```
 $ docker stop <containerID/ContainerName>
+```
 
-#### To Remove a Started or Stopped Container:  
+### To Remove a Started or Stopped Container:  
+```
 $ docker rm <containerID/ContainerName>
+```
 
 #### To See list of the Docker images:
 $ docker images
