@@ -23,7 +23,7 @@ o	Cloud platforms like AWS , Azure etc..
 ## Installing Docker
 ```
 1. Navigate to the below url 
-https://docs.docker.com
+[Docker](https://docs.docker.com "Docker")
 
 2. Click on Get Docker.
 
