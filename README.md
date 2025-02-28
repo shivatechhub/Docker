@@ -21,6 +21,7 @@ Docker is available for the below operating systems
 ```
 
 ## Installing Docker
+```
 1. Navigate to the below url <br>
 [Docker](https://docs.docker.com "Docker")
 
@@ -34,7 +35,7 @@ Once the Installation is successful we can version the version of the docker usi
 ```
 $ sudo docker version
 ```
-
+```
 #### Check the Docker Version:
 ```
 $ sudo docker version
