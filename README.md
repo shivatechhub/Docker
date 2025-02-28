@@ -2,22 +2,22 @@
 
 Docker Images : 
 ```
-Packages Template or a plan of the application. 
-We can create our own images and push it to docker repository. 
+1. Packages Template or a plan of the application. 
+2. We can create our own images and push it to docker repository. 
 ```
 
 #### Getting Started with Docker
 ```
 Docker has two editions
-o	Community edition
-o	Enterprise Edition. 
+ - Community edition
+ - Enterprise Edition. 
 ```
 ```
 Docker is available for the below operating systems 
-o	Linux
-o	Windows
-o	MAC
-o	Cloud platforms like AWS , Azure etc..
+- Linux
+- Windows
+- MAC
+- Cloud platforms like AWS , Azure etc..
 ```
 
 ## Installing Docker
