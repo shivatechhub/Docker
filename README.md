@@ -21,7 +21,6 @@ o	Cloud platforms like AWS , Azure etc..
 ```
 
 ## Installing Docker
-```
 1. Navigate to the below url 
 [Docker](https://docs.docker.com "Docker")
 
@@ -33,7 +32,7 @@ $ sudo apt-get remove docker docker-engine docker.io containerd runc
 4. Then install docker using the commands for a particular operating system. 
 Once the Installation is successful we can version the version of the docker using 
 $ sudo docker version
-```
+
 
 #### Check the Docker Version:
 ```
