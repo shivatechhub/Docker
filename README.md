@@ -26,9 +26,9 @@ $ sudo docker version
 
 
 #### Check the Docker Version:
-'''
+```
 $ sudo docker version
-'''
+```
 #### Run a particular image inside the container:
 $ sudo docker run <image_name> <container_name>
 
