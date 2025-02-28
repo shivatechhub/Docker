@@ -7,25 +7,30 @@ We can create our own images and push it to docker repository.
 ```
 
 #### Getting Started with Docker
--	Docker has two editions
+```
+Docker has two editions
 o	Community edition
 o	Enterprise Edition. 
--	Docker is available for the below operating systems 
+```
+```
+Docker is available for the below operating systems 
 o	Linux
 o	Windows
 o	MAC
 o	Cloud platforms like AWS , Azure etc..
+```
 
-#### Installing Docker
--	Navigate to the below url 
+##Installing Docker
+```
+1. Navigate to the below url 
 https://docs.docker.com
--	Click on Get Docker. 
--	Uninstall any older versions of the docker using the below command. 
+2. Click on Get Docker. 
+3. Uninstall any older versions of the docker using the below command. 
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
--	Then install docker using the commands for a particular operating system. 
--	Once the Installation is successful we can version the version of the docker using 
+4. Then install docker using the commands for a particular operating system. 
+Once the Installation is successful we can version the version of the docker using 
 $ sudo docker version
-
+```
 
 #### Check the Docker Version:
 ```
