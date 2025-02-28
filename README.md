@@ -147,4 +147,6 @@ $ docker run ubuntu:17.10 cat /etc/*release* <br>
 ```
 
 #### To get the Information about the docker container like IP and other details 
+```
 $ docker inspect <container_id>
+```
